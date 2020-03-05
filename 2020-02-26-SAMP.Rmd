@@ -1,0 +1,36 @@
+---
+title: "Meeting Notes: <br> Career Series Part I - Resumes in PageDown"
+author: "Stefany Samp"
+date: 2020-02-26
+categories: ["R"]
+tags: ["career", "pagedown", "rladies"]
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Summary:
+
+[Scarlett](https://twitter.com/Scar_Data) led us through an **awesome** :fire: session on how to create a resume in Pagedown. Not only can we create resumes quickly that show we know R, we can also use CSV files to select for each version of the resume which items we want to include. She's saving us all from hours of resume updates for each unique application!
+
+Scarlett is passionate about career advancement and just started her own career consulting business! Check out her announcement on Twitter to learn more! :clap:
+
+As always, the full presentation can be found by visiting the [R Ladies Chicago GitHub page](https://github.com/rladies-chicago).
+
+## Insights from the Room Where it Happened:
+
+There is much more to come in the future on this package, which was just introducted in 2019. 
+
+Issues/Wishes | Solution
+------------ | -------------
+A few users who were newly installing Pagedown did not see the options for pagedown templates when they went to File - New File - R Markdown - From Template.  | Restarting RStudio seemed to do the trick!
+Many users wished there was a way to change the look and feel of the resume, especially having a two-page resume or different column widths. | Google helped us find a few immediate needs. The resume template can be edited with CSS to solve some formatting needs such as in [this example](https://github.com/rstudio/pagedown/issues/15). 
+Many users also wanted more fun icon options. | The fa-regular-400.svg file within the Pagedown install was found to hold the icon options for those who wanted to mix it up.
+
+Have more insights to share with the group? Please send them my way, and I'll add them to the notes! You can reach me on [**Twitter**](https://twitter.com/girasolechi), [**GitHub**](https://github.com/girasolechi), or the **R-Ladies Chicago Slack**. 
+
+## About the Author: 
+
+Stefany (she/her) is an accounting, audit and compliance professional with 12+ years of experience. She started learning R in 2019 and is continually inspired by R-Ladies Chicago to continue her learning journey. 
